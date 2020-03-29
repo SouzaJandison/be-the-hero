@@ -2,13 +2,11 @@ import React, { useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 
 import api from '../../services/api'
-//CSS
+
 import './styles.css'
 
-//ICONs
 import { FiArrowLeft } from 'react-icons/fi';
 
-//IMGs
 import logoImg from '../../assets/logo.svg';
 
 export default function NewIncidents() {
@@ -17,6 +15,7 @@ export default function NewIncidents() {
     const [title, setTitle] = useState('');
     const [description, setDescription] = useState('');
     const [value, setValue] = useState('');
+    const [newIncidentErr, setNewIncidentErr] = useState('');
 
     const ongId = localStorage.getItem('ongId');
 
@@ -29,15 +28,16 @@ export default function NewIncidents() {
         }
 
         try {
-           await api.post('incidents', data, {
-            headers: {
-                Authorization: ongId,
-            }
-           });
+            setNewIncidentErr('');
+            await api.post('incidents', data, {
+                headers: {
+                    Authorization: ongId,
+                }
+            });
 
            history.push('/profile')
         } catch(err) {
-            alert('Erro ao cadastra caso, tente novamente!')
+            setNewIncidentErr('Erro ao cadastra caso, tente novamente!');
         }
     }
     return(
@@ -53,6 +53,7 @@ export default function NewIncidents() {
                     </Link>
                 </section>
                 <form onSubmit={hardleNewIncident}>
+                    <span>{newIncidentErr}</span>
                     <input 
                         placeholder="Título do caso"
                         value={title}
@@ -67,6 +68,7 @@ export default function NewIncidents() {
                         placeholder="Valor em reais"
                         value={value}
                         onChange={ e => setValue(e.target.value)}
+                        type="number"
                     />
                     <button type="submit" className="button">Cadastrar</button>
                 </form>

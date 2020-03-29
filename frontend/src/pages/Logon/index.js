@@ -1,29 +1,32 @@
 import React, {useState} from 'react';
 import { Link, useHistory } from 'react-router-dom'
 
-//CSS
 import './styles.css';
 
-//ICONS
 import { FiLogIn } from 'react-icons/fi'
 
-//IMG
 import logoImg from '../../assets/logo.svg'
 import heroesImg from '../../assets/heroes.png'
 import api from '../../services/api';
 
 export default function Logon() {
     const [id, setId] = useState('');
+    const [erroId, setErroId] = useState('');
+    
     const history = useHistory();
+
     async function handleLogin(e) {
         e.preventDefault();
+
         try {
-            const response = await api.post('session', { id })
+            const response = await api.post('session', { id });
+
             localStorage.setItem('ongId', id);
             localStorage.setItem('orgName', response.data.name);
+
             history.push('/profile')
         } catch (err) {
-            alert('Falha no login, tente novamente!')
+            setErroId('ID inválido');
         }
     }
     return(
@@ -32,6 +35,7 @@ export default function Logon() {
                 <img src={logoImg} alt="Be The Hero"/>
                 <form onSubmit={handleLogin}>
                     <h1>Faça seu logon</h1>
+                    <span>{erroId}</span>
                     <input 
                         placeholder="Sua ID" 
                         value={id}

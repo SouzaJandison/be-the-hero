@@ -3,11 +3,10 @@ import { Link, useHistory } from 'react-router-dom';
 
 import api from '../../services/api';
 
-//CSS
 import "./styles.css";
-//ICONs
+
 import { FiPower, FiTrash2 } from 'react-icons/fi';
-//IMGs
+
 import logoImg from '../../assets/logo.svg';
 
 export default function Profile() {
@@ -15,6 +14,7 @@ export default function Profile() {
     const history = useHistory();
     const ongName = localStorage.getItem('orgName');
     const ongId = localStorage.getItem('ongId');
+
     useEffect( () => {
         api.get('profile', {
             headers: {

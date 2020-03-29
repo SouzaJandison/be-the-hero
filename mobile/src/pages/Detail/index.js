@@ -27,7 +27,7 @@ export default function Datail() {
     }
 
     function sendWhatsapp(){
-        Linking.openURL(`whatsapp://send?phone=${incident.whatsapp}&text=${message}`)
+        Linking.openURL(`whatsapp://send?phone=55${incident.whatsapp}&text=${message}`)
     }
 
     return(
@@ -44,7 +44,7 @@ export default function Datail() {
                 <Text style={styles.incidentValue}>{incident.name} de {incident.city}/{incident.uf}</Text>
 
                 <Text style={styles.incidentProperty}>CASO:</Text>
-                <Text style={styles.incidentValue}>{incident.description}</Text>
+                <Text style={styles.incidentValue}>{incident.title}</Text>
 
                 <Text style={styles.incidentProperty}>VALOR:</Text>
                 <Text style={styles.incidentValue}>

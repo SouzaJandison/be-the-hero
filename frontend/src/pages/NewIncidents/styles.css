@@ -46,3 +46,13 @@
 .new-incident-container .content form textarea {
     margin-top: 8px;
 }
+
+.new-incident-container form span {
+    display: block;
+    width: 100%;
+    padding-top: 2px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #e02041;
+}

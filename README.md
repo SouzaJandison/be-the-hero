@@ -2,7 +2,7 @@
     <img alt="Be The Hero" title="Be The Hero" src=".github/logo.svg" width="250px" />
 </h1>
 <h4 align="center">
-  🚀 OmniStack Week 11.0
+  🚀 Desenvolvido na Semana OmniStack 11.0 ([Rocketseat!](https://rocketseat.com.br/))
 </h4>
 <p align="center">
   :rocket: <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;

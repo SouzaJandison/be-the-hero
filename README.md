@@ -6,9 +6,9 @@
 </h4>
 <p align="center">
   :rocket: <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#">menu 03</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#">menu 04</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  💻 <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  📱 <a href="#-ProjetoMobile">Mobile</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  🖱️ <a href="#-ProjetoWeb">Web</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#">menu 05</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#">menu 0</a>
 </p>
@@ -24,3 +24,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Expo](https://expo.io/)
 
 ## 💻 Projeto
+
+Be The Hero, é uma aplicação para ONGs cadastrarem casos em que qualquer pessoa interessada em ajudar possa ver e entrar em contato. no frontend as ONGs faz seu cadastro na plataforma e recebe um id para acesso, no sistema ela pode gerenciar seu casos, cadastrando novos casos e excluído casos. Já no mobile o usuário vai poder visualizá casos das ONGs e caso queira ajudar pode entra em contato com a ONG por E-mail ou whatsapp.
+
+## 📱 Projeto Mobile
+
+## 🖱️ Projeto Web
+

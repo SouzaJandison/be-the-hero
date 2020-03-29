@@ -7,10 +7,7 @@
 <p align="center">
   :rocket: <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   💻 <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  📱 <a href="#-projeto-mobile">Mobile</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  🖱️ <a href="#-projeto-web">Web</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   👨‍🏫 <a href="#-executando">Executando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#">menu 0</a>
 </p>
 
 ## :rocket: Tecnologias
@@ -29,9 +26,6 @@ Be The Hero, é uma aplicação para ONGs cadastrarem casos em que qualquer pess
 
 Projeto desenvolvido durante a Semana OmniStack 11.0 da [Rocketseat](https://rocketseat.com.br/)
 
-## 📱 Projeto Mobile
-
-## 🖱️ Projeto Web
 
 ## 👨‍🏫 Executando
 

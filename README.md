@@ -1,1 +1,1 @@
-![Be The Hero](./.github/logo.svg)
+<img aling="center" src="./.github/logo.svg">

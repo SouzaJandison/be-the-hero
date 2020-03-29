@@ -1,21 +1,21 @@
 <h1 align="center">
     <img alt="Be The Hero" title="Be The Hero" src=".github/logo.svg" width="250px" />
-</h1>https://img.shields.io/github/languages/count/vsalbuq/be-the-hero
+</h1>
 <h4 align="center">
   🚀 OmniStack Week 11.0
 </h4>
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/vsalbuq/be-the-hero">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/vsalbuq/be-the-hero">
-  
-  <a href="https://github.com/vsalbuq/be-the-hero/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vsalbuq/be-the-hero">
-  </a>
-
-  <a href="https://github.com/vsalbuq/be-the-hero/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/vsalbuq/be-the-hero">
-  </a>
-
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+  <a href="#rocket-technologies">menu 01</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">menu 02</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">menu 03</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-can-i-run-it">menu 04</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-can-i-help">menu 05</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">menu 0</a>
 </p>
+
+## :rocket: Technologies
+
+- [Node.js](https://nodejs.org/en/)
+- [React](https://reactjs.org)
+- [React Native](https://facebook.github.io/react-native/)
+- [Expo](https://expo.io/)

@@ -52,5 +52,5 @@ yarn dev
 ### Mobile
 
 ````yarn
-expo start
+yarn start
 ````

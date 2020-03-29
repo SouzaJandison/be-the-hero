@@ -7,9 +7,9 @@
 <p align="center">
   :rocket: <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   💻 <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  📱 <a href="#-Projeto-Mobile">Mobile</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  🖱️ <a href="#-Projeto-Web">Web</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#">menu 05</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  📱 <a href="#-projeto-mobile">Mobile</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  🖱️ <a href="#-projeto-web">Web</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  👨‍🏫 <a href="#-executando">Executando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#">menu 0</a>
 </p>
 
@@ -31,3 +31,30 @@ Be The Hero, é uma aplicação para ONGs cadastrarem casos em que qualquer pess
 
 ## 🖱️ Projeto Web
 
+## 👨‍🏫 Executando
+
+Execute o comando yarn nas pastas do projeto para baixar todas as depêndencias necesárias para rodar a aplicação.
+
+```yarn
+yarn
+```
+
+## Inicie o projeto em modo desenvolvimento com os seguintes comandos
+
+### Front-end
+
+````yarn
+yarn start
+````
+
+### Back-end
+
+````yarn
+yarn dev
+````
+  
+### Mobile
+
+````yarn
+expo start
+````

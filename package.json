@@ -1,0 +1,8 @@
+{
+  "name": "semanaomnistack11",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SouzaJandison/semana-omnistack11.git",
+  "author": "Jandison Barbosa <jandsonbarbosa.dev@gmail.com>",
+  "license": "MIT"
+}

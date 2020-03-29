@@ -1,6 +1,6 @@
 <h1 align="center">
     <img alt="Be The Hero" title="Be The Hero" src=".github/logo.svg" width="250px" />
-</h1>
+</h1>https://img.shields.io/github/languages/count/vsalbuq/be-the-hero
 <h4 align="center">
   🚀 OmniStack Week 11.0
 </h4>

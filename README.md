@@ -27,13 +27,14 @@ Be The Hero, é uma aplicação para ONGs cadastrarem casos em que qualquer pess
 Projeto desenvolvido durante a Semana OmniStack 11.0 da [Rocketseat](https://rocketseat.com.br/)
 
 <h3> 📱 Imagens do Projeto Mobile </br> </br>
-<p  align="center">
-    <img src="" width=70% />
-</p>
+  <p>
+    <img src=".github/mobile01.jpeg" width="300px" />
+    <img src=".github/mobile02.jpeg" width="300px" />
+  </p>
 </h3>
 <h3> 🖱️ Imagem do Projeto Web </br> </br>
-    <p align="center">
-        <img src="" width=90% />
+    <p>
+        <img src=".github/web01.jpeg" width=90% />
     </p>
 </h3>
 

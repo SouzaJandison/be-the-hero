@@ -28,8 +28,13 @@ Projeto desenvolvido durante a Semana OmniStack 11.0 da [Rocketseat](https://roc
 
 <h3> 📱 Imagens do Projeto Mobile </br> </br>
 <p  align="center">
-    <img src="https://github.com/radaelilucca/FinDevs/blob/master/Assets/PromoToReadme.png?raw=true" width=70% />
+    <img src="" width=70% />
 </p>
+</h3>
+<h3> 🖱️ Imagem do Projeto Web </br> </br>
+    <p align="center">
+        <img src="" width=90% />
+    </p>
 </h3>
 
 ## 👨‍🏫 Executando

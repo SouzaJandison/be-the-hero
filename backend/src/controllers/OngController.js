@@ -33,13 +33,13 @@ module.exports = {
           host: "smtp.mailtrap.io",
           port: 2525,
           auth: {
-            user: "53c5bd1f935e10",
-            pass: "73e82ab99aa712"
+            user: process.env.MAILER_USER,
+            pass: process.env.MAILER_PASS
           }
         });
 
         const mailOptions = {
-          from: "53c5bd1f935e10",
+          from: process.env.MAILER_USER,
           to: email,
           subject: 'Seu ID de acesso ao Be The Hero',
           text: `ID: ${id}`,

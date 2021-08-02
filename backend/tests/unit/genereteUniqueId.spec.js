@@ -1,8 +1,8 @@
-const genereteUniqueId = require('../../src/utils/genereteUniqueId');
+const generateUniqueId = require('../../src/utils/generateUniqueId');
 
-describe('Generete Unique ID', () => {
+describe('Generate Unique ID', () => {
     it('should generate an unique ID', () => {
-        const id = genereteUniqueId();
+        const id = generateUniqueId();
         expect(id).toHaveLength(8);
     });
 });

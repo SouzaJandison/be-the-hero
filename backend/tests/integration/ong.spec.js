@@ -16,9 +16,11 @@ describe("ONG", () => {
     const response = await request(app).post("/ongs").send({
       name: "APAD03",
       email: "teste02@gmail.com",
-      whatsapp: "71000000000",
+      whatsapp: "(00) 00000-0000",
+      cep: "00000-000",
       city: "Salvador",
       uf: "BA",
+      neighborhood: "Stiep"
     });
 
     expect(response.body).toHaveProperty("id");

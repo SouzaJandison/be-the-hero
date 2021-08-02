@@ -29,19 +29,17 @@ module.exports = {
       });
 
       try {
-        const user = 'testeemailnode@gmail.com';
-        const password = 'rootnode456789';
-
         const transporter = nodemailer.createTransport({
-          host: 'smtp.gmail.com',
+          host: "smtp.mailtrap.io",
+          port: 2525,
           auth: {
-            user,
-            password,
-          },
+            user: "53c5bd1f935e10",
+            pass: "73e82ab99aa712"
+          }
         });
 
         const mailOptions = {
-          from: user,
+          from: "53c5bd1f935e10",
           to: email,
           subject: 'Seu ID de acesso ao Be The Hero',
           text: `ID: ${id}`,
@@ -49,12 +47,13 @@ module.exports = {
 
         transporter.sendMail(mailOptions, (error, _) => {
           if (error) {
-            console.log(error);
+            console.log('err', error);
             return response.json({ status: 'Erro!!!' });
           }
+
           return response.json({
             status: 'ID de acesso enviando para seu e-mail! verifique seu e-mail',
-            id: `Ou pegue aqui mesmo (${id})`,
+            id,
           });
         });
       } catch (err) {

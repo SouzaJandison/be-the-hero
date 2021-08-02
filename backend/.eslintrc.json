@@ -14,12 +14,13 @@
   "rules": {
     "no-console": "off",
     "camelcase": "off",
-    "generator": "never",
+    "generators": "never",
     "no-unused-vars": [
       "error",
       {
         "argsIgnorePattern": "_"
       }
-    ]
+    ],
+    "quotes": [2, "single", { "avoidEscape": true }]
   }
 }

@@ -30,12 +30,12 @@ module.exports = {
 
       try {
         const transporter = nodemailer.createTransport({
-          host: "smtp.mailtrap.io",
+          host: 'smtp.mailtrap.io',
           port: 2525,
           auth: {
             user: process.env.MAILER_USER,
-            pass: process.env.MAILER_PASS
-          }
+            pass: process.env.MAILER_PASS,
+          },
         });
 
         const mailOptions = {
